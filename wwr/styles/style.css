@@ -130,5 +130,8 @@ h2{
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+    color: #3a405a;
+}
+.card-img{
     border: 10px solid #3a405a;
 }
