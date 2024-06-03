@@ -1,0 +1,15 @@
+
+/*Style sheet for mina's business*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Teachers:ital,wght@0,400;0,700;1,400&display=swap');
+:root{
+    --heading-font: "Rock Salt", Helvetica, sans-serif;
+    --paragraph-font: Teachers, helvetica, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
