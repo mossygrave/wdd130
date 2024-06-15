@@ -40,6 +40,23 @@ Fonts are separated by a | */
   width: 25%;
 }
 
+#home img{
+  height:50%;
+  width:50%;
+}
+
+#services img{
+  height: 40%;
+  width: 40%;
+  padding: 5px;
+}
+
+#bamboo_rocks{
+  height:50%;
+  width: 50%;
+  padding: 5px;
+}
+
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
