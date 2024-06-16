@@ -57,6 +57,11 @@ Fonts are separated by a | */
   padding: 5px;
 }
 
+#wireframes img{
+  width: 50%;
+  height: 50%;
+}
+
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
