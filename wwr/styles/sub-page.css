@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Teachers:ital,wght@0,400;0,700;1,400&display=swap');
+
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --heading-font: "Permanent Marker", copperplate, fantasy;
+    --paragraph-font: Teachers, Helvetica, sans-serif;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border: 0 ;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    width: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: #aec5eb;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    padding: 35px;
+}
+nav a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+header {
+    background-color: #3a405a;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-size: 22px;
+}
+#Idaho, #Arizona{
+    background-color: whitesmoke;
+    color: #3a405a;
+    padding: 20px; 
+    grid-row: 2;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px auto 75px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    max-height: 650px;  
+    gap: 10px;
+    border-top: 50px;
+    border-bottom: 50px;
+}
+#id_img, #az_img{
+    max-width: 100%;
+    min-width: 100px;
+    height: auto;
+    border-radius: 15px solid #3a405a;
+    grid-column: 1;
+    grid-row: 2/3;
+    border-radius: 15px;
+    border: 5px solid #3a405a
+    
+}
+.id_para, .az_para{
+    grid-column: 2;
+    text-align: center;
+    grid-row: 2;
+    font-size: 1.1em;
+}
+#ut_img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    grid-row: 2/3;
+    grid-column: 2;
+    border: 5px solid #aec5eb
+    
+}
+.ut_para{
+    text-align: center;
+    grid-row: 2;
+    font-size: large;
+}
+#Utah{
+    padding: 20px;
+    color: #aec5eb;
+    background-color: #3a405a;
+    grid-row: 2;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px auto 75px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    max-height: 550px;
+    gap: 10px;
+    border-bottom: outset;
+    border-top: inset;
+}
+#Arizona{
+    grid-row: 3;
+}
+#Idaho h2, #Arizona h2{
+    font-family: var(--heading-font);
+    text-shadow: 2px 2px #aec5eb;
+}
+#Utah h2{
+    font-family: var(--heading-font);
+    text-shadow: 2px 2px whitesmoke;
+}
+p {
+    font-family: var(--paragraph-font);
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+#Utah p{
+    color: whitesmoke;
+}
+footer{
+    background-color: #3a405a;
+    color: whitesmoke;
+    font-family: var(--paragraph-font);
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+footer a{
+    color:#aec5eb;
+    text-decoration: none;
+}
+footer a:hover{
+    color: whitesmoke;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 900px){
+    .ut_para, .id_para, .az_para{
+        font-size: .85em;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    #Utah, #Idaho, #Arizona{
+        display: block;
+        max-height: fit-content;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
