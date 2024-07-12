@@ -1,0 +1,154 @@
+
+/*Style sheet for mina's business*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Teachers:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root{
+    --heading-font: "Rock Salt", Helvetica, sans-serif;
+    --paragraph-font: Teachers, helvetica, sans-serif;
+}
+
+#content{
+    max-width: 1800px;
+    margin: 0 -10px;
+    background-color: #4A4641;
+}
+header, footer{
+    background-color: #4A4641;
+    margin: -10px;
+    padding-top: 10px;
+}
+.logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    display: flex;
+    
+}
+nav a{
+    text-decoration: none;
+    padding: 15px 75px;
+    text-align: center;
+    font-family: var(--paragraph-font);
+    color: #FFE3E3;
+    font-size: 1.5em;
+}
+nav a:hover{
+    color: white;
+    background-color: #88A27D;
+}
+div.gallery {
+    border: 1px solid whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+div.gallery:hover {
+    border: 1px solid #88A27D;
+}
+  
+div.gallery img {
+    width: 500px;
+    height: auto;
+    max-height: 300px;
+}
+.responsive{
+    background-color: whitesmoke;
+}
+main{
+    background-color: #88A27D;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+h1 {
+    font-family: var(--heading-font);
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px black ;
+    padding-bottom: 30px;
+    background-color: #88A27D;
+}
+#service_cards{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+.text{
+    font-family: var(--paragraph-font);
+}
+.logo{
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+}
+#bamboo{
+    /* The image used */
+    background-image: url("images/bamboo_background.jpg");
+  
+    /* Full height */
+    height: 100%;
+    max-width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+footer .logo{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+footer{
+    margin-top: -20px;
+}
+.active{
+    background-color: #88A27D;
+    color: white;
+}
