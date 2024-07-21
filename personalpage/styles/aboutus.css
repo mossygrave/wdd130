@@ -16,14 +16,13 @@
 }
 header, footer{
     background-color: #4A4641;
-    padding-top: 10px;
+    margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
 }
 .logo_link{
     padding-top: 5px;
-    justify-self: center;
-    align-self: center;
+    margin: auto;
 }
 nav {
     display: flex;
