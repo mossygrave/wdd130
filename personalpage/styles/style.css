@@ -8,16 +8,17 @@
 }
 
 #content{
-    max-width: 1800px;
+    max-width: 2000px;
     margin: 0 -10px;
     background-color: #4A4641;
 }
 header, footer{
     background-color: #4A4641;
-    margin: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
     padding-top: 10px;
 }
-#logo_link{
+.logo_link{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
